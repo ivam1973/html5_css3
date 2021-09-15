@@ -4,6 +4,37 @@
     https://github.com/ivam1973
 */
 
-body{ 
-    background-color: orange; 
+/*Smart Portrait*/
+@media (min-width: 576px) {
+    body { 
+        background-color: aquamarine;
+    }
+}
+
+/*Smart Land*/
+@media (min-width: 576px) {
+    body { 
+        background-color: aquamarine;
+    }
+}
+
+/*Tablet Portrait*/
+@media (min-width: 768px) {
+    body { 
+        background-color:yellow;
+    }
+}
+
+/*Tablet Land*/
+@media (min-width: 992px) {
+    body { 
+        background-color:red;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1200px) {
+    body { 
+        background-color:rgb(35, 95, 35) ;
+    }
 }
